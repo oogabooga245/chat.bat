@@ -84,6 +84,6 @@ pip3 install urwid
 goto success
 
 :update
-curl -o chat.bat https://raw.githubusercontent.com/oogabooga245/chat.bat/main/chat.bat
-start chat.bat
+curl -o update.bat https://raw.githubusercontent.com/oogabooga245/chat.bat/main/update.bat
+start update.bat
 exit
