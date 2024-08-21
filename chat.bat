@@ -6,12 +6,13 @@ color 3
 cls
 
 :success
+curl -o name.txt
 cls
 echo.
-echo       _                   ___ _  __
-echo      ^|_) \/_^|_^|_  _ __     ^| ^|_)/  
-echo      ^|   /  ^|_^| ^|(_)^| ^|   _^|_^| \\__
-echo                                     v1.0.1 
+type name.txt
+timeout 3 >nul
+del name.txt
+echo    Made by RGH-Wins                       v1.0.1 
 echo.
 echo ----------------------------------------
 echo ^|                                      ^|
