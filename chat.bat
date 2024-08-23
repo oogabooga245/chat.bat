@@ -6,7 +6,7 @@ color 3
 cls
 
 :success
-curl -o name.txt
+curl -o name.txt https://raw.githubusercontent.com/oogabooga245/chat.bat/main/name.txt
 cls
 echo.
 type name.txt
@@ -14,14 +14,14 @@ timeout 3 >nul
 del name.txt
 echo    Made by RGH-Wins                       v1.0.1 
 echo.
-echo ----------------------------------------
-echo ^|                                      ^|
-echo ^|        1 - chat room 1               ^|
-echo ^|        2 - chat room 2               ^|
-echo ^|        3 - setup                     ^|
-echo ^|        4 - update                    ^|
-echo ^|                                      ^|
-echo ----------------------------------------
+echo             ----------------------------------------
+echo             ^|                                      ^|
+echo             ^|        1 - chat room 1               ^|
+echo             ^|        2 - chat room 2               ^|
+echo             ^|        3 - setup                     ^|
+echo             ^|        4 - update                    ^|
+echo             ^|                                      ^|
+echo             ----------------------------------------
 echo.
 
 set /p a=Select an option [%user%]: 
