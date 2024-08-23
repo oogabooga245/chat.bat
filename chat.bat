@@ -1,3 +1,4 @@
+del update.bat
 title RGH-Wins ChatRoom
 cls
 @echo off
