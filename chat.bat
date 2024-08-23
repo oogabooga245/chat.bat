@@ -54,7 +54,8 @@ goto success
 
 :setup
 cls
-echo do you have python installed?
+echo do you have python installed? yes/no
+set /p a=Select an option: 
 if "%a%"=="yes" goto python
 if "%a%"=="no" goto urwid
 
