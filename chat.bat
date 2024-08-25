@@ -13,9 +13,9 @@ cls
 echo.
 type name.txt
 echo    Made by RGH-Wins                       v1.0.2 
+type update2.txt
 timeout 3 >nul
 del name.txt
-type update2.txt
 del update2.txt
 echo.
 echo             ----------------------------------------
