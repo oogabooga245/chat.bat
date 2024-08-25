@@ -39,22 +39,26 @@ pause
 goto success
 
 :one
-curl -o chat.py https://github.com/imadeit445/better-tool.bat/blob/main/chat.py
-python3 chat.py
-del chat.py
+curl -o chat2.py https://raw.githubusercontent.com/oogabooga245/chat.bat/main/chat2.py
+python3 chat2.py
+timeout 2 >nul
+del chat2.py
+del chat.log
 goto success
 
 :two
 cls
 curl -o chat.py https://raw.githubusercontent.com/oogabooga245/chat.py/main/chat.py
 python3 chat.py
-del chat.py
 timeout 2 >nul
+del chat.py
+del chat.log
 goto success
 
 :setup
 cls
 echo do you have python installed? yes/no
+echo.
 set /p a=Select an option: 
 if "%a%"=="no" goto python
 if "%a%"=="yes" goto urwid
