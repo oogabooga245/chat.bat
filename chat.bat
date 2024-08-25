@@ -15,8 +15,8 @@ type name.txt
 echo    Made by RGH-Wins                       v1.0.2 
 timeout 3 >nul
 del name.txt
-type update.txt
-del update.txt
+type update2.txt
+del update2.txt
 echo.
 echo             ----------------------------------------
 echo             ^|                                      ^|
