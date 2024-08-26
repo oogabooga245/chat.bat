@@ -60,9 +60,20 @@ cls
 echo do you have python installed? yes/no
 echo.
 set /p a=Select an option: 
-if "%a%"=="no" goto python
+if "%a%"=="no" goto wind
 if "%a%"=="yes" goto urwid
-
+echo [!] Invalid Choice. Please try again... [!]
+pause
+goto success
+:wind
+cls
+echo are you on windws 10 or 11?
+set /p a=Select an option: 
+if "%a%"=="10" goto python
+if "%a%"=="11" goto 11ur
+echo [!] Invalid Choice. Please try again... [!]
+pause
+goto wind
 
 :python
 cd %USERPROFILE%\Desktop
@@ -97,3 +108,11 @@ goto success
 curl -o update.bat https://raw.githubusercontent.com/oogabooga245/chat.bat/main/update.bat
 start update.bat
 exit
+
+:11ur
+echo this will not work without this
+echo open the windowd app store 
+echo search "python 3.11"
+echo download python 3.11
+pause
+goto urwid
