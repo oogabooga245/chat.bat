@@ -7,16 +7,16 @@ color 3
 cls
 
 :success
-curl -o update2.txt https://raw.githubusercontent.com/oogabooga245/chat.bat/main/update2.txt
+curl -o update.txt https://raw.githubusercontent.com/oogabooga245/chat.bat/main/update.txt
 curl -o name.txt https://raw.githubusercontent.com/oogabooga245/chat.bat/main/name.txt
 cls
 echo.
 type name.txt
 echo    Made by RGH-Wins                       v1.0.2 
-type update2.txt
+type update.txt
 timeout 3 >nul
 del name.txt
-del update2.txt
+del update.txt
 echo.
 echo             ----------------------------------------
 echo             ^|                                      ^|
